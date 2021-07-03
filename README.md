@@ -9,4 +9,7 @@ Berikut ini syarat-syarat yang diperlukan untuk menjalankan service berikut.
   <li>PDO PHP Extension</li>
   <li>Mbstring PHP Extension</li>
   <li>DBMS MySQL</li>
+  <li>Text Editor (VScode, Sublime Text)</li>
+  <li>Command Prompt Line/Terminal/Gitbash</li>
+  <li>Composer</li>
  </ol>
