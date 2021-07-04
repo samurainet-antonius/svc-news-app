@@ -15,7 +15,7 @@
  </ol>
  
  <p>Berikut ini dokumentasi api yang akan digunakan, dokumentasi ini akan berubah tanpa adanya pemberitahuan sesuai dengan update pada aplikasi.</p>
- <a href="https://documenter.getpostman.com/view/9640381/Tzm2KJ1u">Dokumentasi API using Postman</a>
+ <a href="https://documenter.getpostman.com/view/9640381/Tzm2KJ1u" target="_blank">Dokumentasi API using Postman</a>
  
  <h3>Fitur News App v1.0</h3>
  <br/>
