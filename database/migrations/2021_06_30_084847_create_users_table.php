@@ -25,7 +25,7 @@ class CreateUsersTable extends Migration
             $table->tinyInteger('gender')->nullable();
             $table->string('nohp',15)->nullable();
             $table->string('address',500)->nullable();
-            $table->tinyInteger('experience')->default('0');
+            $table->tinyInteger('experience')->nullable();
             $table->string('photo',200)->nullable();
             $table->uuid('token')->nullable();
             $table->enum('role',['admin','author','reader']);

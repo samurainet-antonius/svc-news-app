@@ -156,9 +156,14 @@ class NewsController extends BaseController
 
         try{
 
+            $category = $this->category($request->category);
+
+            unset($formParams['category']);
+
             $formParams['id'] = $this->uuid_short();
             $formParams['uuid'] = $this->uuid();
             $formParams['users_id'] = $auth->id;
+            $formParams['category_id'] = $category->id;
 
             $file->move($keyData,$filename);
 
@@ -169,6 +174,8 @@ class NewsController extends BaseController
 
             DB::commit();
 
+            $formParams['category'] = $category->uuid;
+            unset($formParams['category_id']);
             unset($formParams['id']);
             unset($formParams['users_id']);
 
@@ -247,6 +254,10 @@ class NewsController extends BaseController
         DB::beginTransaction();
 
         try{
+            $category = $this->category($request->category);
+
+            unset($formParams['category']);
+            $formParams['category_id'] = $category->id;
 
             DB::table('news')
                 ->where('uuid',$uuid)
@@ -254,6 +265,8 @@ class NewsController extends BaseController
 
             DB::commit();
 
+            $formParams['category'] = $category->uuid;
+            unset($formParams['category_id']);
             unset($formParams['id']);
 
             return response()->json([
@@ -304,6 +317,7 @@ class NewsController extends BaseController
     public function achieve(Request $request){
 
         $active = $request->has('active') ? $request->active : '1';
+        $role = $request->has('role') ? $request->role : 'admin';
 
         try {
 
@@ -312,7 +326,7 @@ class NewsController extends BaseController
             ->leftJoin('users','news.users_id','users.id')
             ->select('news_title','news_url','category_name','category_url','news_content','news_image','users.name as author','news.active','news.uuid','news.created_at','news.updated_at')
             ->where('news.active',$active)
-            ->where('users.role','author')
+            ->where('users.role',$role)
             ->whereNull('news.deleted_at')
             ->orderBy('news.created_at','DESC')->get();
 

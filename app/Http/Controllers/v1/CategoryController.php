@@ -102,7 +102,7 @@ class CategoryController extends BaseController
 
             DB::table('category')
                 ->insert($formParams);
-
+                
             unset($formParams['id']);
 
             return response()->json([
