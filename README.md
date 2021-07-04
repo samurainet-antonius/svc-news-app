@@ -1,6 +1,6 @@
 <h2>svc-news-app-lumen</h2>
 <p>svc-news-app merupakan Restfull API yang berguna untuk membuat aplikasi berita.</p>
-<p>Service ini dibuat dengan menggunakan bahasa pemrograman PHP (Framework Lume) dan DBMS MySQL.</p>
+<p>Service ini dibuat dengan menggunakan bahasa pemrograman PHP (Framework Lumen) dan DBMS MySQL.</p>
 
 <p>Berikut ini syarat-syarat yang diperlukan untuk menjalankan service berikut.</p>
 <ol>
