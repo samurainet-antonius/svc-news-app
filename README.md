@@ -35,8 +35,9 @@
 <li>Report Author</li>
 <li>Report Reader</li>
 </ol>
-<ol>
+<br/>
 <b>Author</b>
+<ol>
 <li>Register</li>
 <li>Verify Email</li>
 <li>Login</li>
@@ -49,9 +50,9 @@
 <li>Update News</li>
 <li>Delete News</li>
 </ol>
-
-<ol>
+<br/>
 <b>Reader</b>
+<ol>
 <li>Register</li>
 <li>Verify Email</li>
 <li>Login</li>
