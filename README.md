@@ -17,6 +17,7 @@
  <h3>Fitur News App v1.0</h3>
  <br/>
 <b>Admin</b>
+<ol>
 <li>Login</li>
 <li>Logout</li>
 <li>Profile</li>
@@ -33,7 +34,8 @@
 <li>Report News</li>
 <li>Report Author</li>
 <li>Report Reader</li>
-
+</ol>
+<ol>
 <b>Author</b>
 <li>Register</li>
 <li>Verify Email</li>
@@ -46,7 +48,9 @@
 <li>Read News</li>
 <li>Update News</li>
 <li>Delete News</li>
+</ol>
 
+<ol>
 <b>Reader</b>
 <li>Register</li>
 <li>Verify Email</li>
@@ -62,5 +66,5 @@
 <li>Share</li>
 <li>Comment</li>
 <li>Create Comment</li>
- 
+ </ol>
  <h3>Petunjuk Menjalankan Aplikasi</h3>
