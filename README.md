@@ -14,4 +14,53 @@
   <li>Composer</li>
  </ol>
  
+ <h3>Fitur News App v1.0</h3>
+ <br/>
+<b>Admin</b>
+<li>Login</li>
+<li>Logout</li>
+<li>Profile</li>
+<li>Update Profile</li>
+<li>Update Password</li>
+<li>Create Category</li>
+<li>Read Category</li>
+<li>Update Category</li>
+<li>Delete Category</li>
+<li>Create News</li>
+<li>Read News</li>
+<li>Update News</li>
+<li>Delete News</li>
+<li>Report News</li>
+<li>Report Author</li>
+<li>Report Reader</li>
+
+<b>Author</b>
+<li>Register</li>
+<li>Verify Email</li>
+<li>Login</li>
+<li>Logout</li>
+<li>Profile</li>
+<li>Update Profile</li>
+<li>Update Password</li>
+<li>Create News</li>
+<li>Read News</li>
+<li>Update News</li>
+<li>Delete News</li>
+
+<b>Reader</b>
+<li>Register</li>
+<li>Verify Email</li>
+<li>Login</li>
+<li>Logout</li>
+<li>Profile</li>
+<li>Update Profile</li>
+<li>Update Password</li>
+<li>News terbaru</li>
+<li>News sorting views</li>
+<li>News sorting category</li>
+<li>Views</li>
+<li>Share</li>
+<li>Comment</li>
+<li>Create Comment</li>
+ 
  <h3>Petunjuk Menjalankan Aplikasi</h3>
